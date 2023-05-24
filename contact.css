@@ -1,0 +1,31 @@
+.navigation{
+ background: linear-gradient(#49708f, #293f50); 
+ border-right: 1px solid rgba(0, 0, 0, .3);
+  color: #fff;
+  margin: 200px 0px;
+  height: 25vh;
+  width: 100%;
+}
+.nop{
+   margin-left: 300px;
+}
+.navigation a {
+   display: inline-block; 
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+
+}
+.navigation a:hover {
+  background: #314b60;
+
+
+}
+.navigation img{
+  width: 25%;
+  height: 25vh;
+}
+
+address{
+  margin: 35px;
+}

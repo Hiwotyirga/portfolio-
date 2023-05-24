@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="#">
+    <link rel="stylesheet" href="google.css">
+    
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+    
+        <div class="container">
+            <nav class="flex items-centre justify-between">
+                <div class="left flex justfiy-right">
+                    <div class="logo"> <img src="https://pbs.twimg.com/profile_images/1325796904312082433/rXdk-G67_400x400.jpg" width="50px" alt="logo"> </div>
+                    <div id="sidemenu">                
+                    <div> <a href="#">Home</a> <a href="about me.html">About</a> <a href="service.html">Services</a>  
+                       </li>
+                    <i class ="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <!-- menu icon  -->
+                <i class ="fas fa-bars" onclick="openmenu()"></i>
+                </div>
+                </div>
+                <div class="right"> <button class="btn btn-primary">
+                <a href="contact.html">Contact</a></button> </div>
+            </nav>
+        </div>
+        
+        </div>
+   </div>
+</div>
+</div>
+      </div>
+        </div>
+   </div>
+</div>
+</div>
+ </header>
+ <script>
+   var sidemen =document.getElementById("sidemenu");
+    function openmenu(){
+      sidemen.style.right ="0";
+    }
+    function closemenu(){
+        sidemen.style.right="-200px";
+         
+    }
+
+</script>
+</body>
+
+</html>
